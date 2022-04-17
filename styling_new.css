@@ -81,28 +81,22 @@
 }
 
 
-@media(min-width:767px) {
+@media(min-width:767px){
     .background_styling {
         display: flex;
-
         min-height: 100vh;
-
         color: rgba(15, 9, 0, 0.89);
     }
-
     .static {
         flex-direction: column;
         justify-content: center;
         width: 50vw;
         position: absolute;
         top: 30vh;
-
     }
-
     .dynamic {
         width: 50vw;
         left: 50vw;
         position: absolute;
-
     }
 }
