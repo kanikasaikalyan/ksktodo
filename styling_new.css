@@ -81,6 +81,21 @@
 .iconsize {
     font-size: 50px;
 }
+.move {
+    animation: fadeMove 1s ease-in-out;
+}
+
+@keyframes fadeMove {
+    from {
+        opacity: 0;
+        transform: translateX(-3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0rem);
+    }
+}
 
 
 @media(min-width:767px) {
