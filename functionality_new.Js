@@ -42,7 +42,7 @@ function createAndAppendToDo(todo) {
 
     let todocontainer_ul = document.getElementById('add-task-container');
     let todoelement = document.createElement('li');
-    todoelement.classList.add('d-flex', 'm-2');
+    todoelement.classList.add('d-flex', 'm-2','move');
     todoelement.id = todoId;
     todocontainer_ul.appendChild(todoelement);
 
